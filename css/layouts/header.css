@@ -1,0 +1,56 @@
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: #fcfefe;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-left .logo {
+  font-size: 36px;
+  font-weight: 400;
+  display: flex;
+  gap: 0;
+}
+
+.header-left .logo span:first-child {
+  color: #1f2b6c;
+}
+
+.header-left .logo span:last-child {
+  color: #159eec;
+}
+
+.header-right .header-list-item {
+  display: flex;
+  gap: 10px;
+}
+
+.header-right .header-list-item .header-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.material-symbols-outlined {
+  font-size: 30px !important;
+}
+
+.header-item-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-item-right span:first-child {
+  text-transform: uppercase; /*Chuyển đổi văn bản thành in hoa*/
+  font-size: 16px;
+  color: #1f2b6c;
+  font-weight: 500;
+}
+
+.header-item-right span:last-child {
+  font-size: 16px;
+  color: #159eec;
+  font-weight: 500;
+}
